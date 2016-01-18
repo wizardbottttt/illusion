@@ -219,31 +219,21 @@ function create_config( )
     "download_media",
     "invite",
     "all",
-    "leave_ban"
+    "leave_ban",
+    "plugins"
     },
-    sudo_users = {110626080,103649648,111020322,0,tonumber(our_id)},--Sudo users
+    sudo_users = {105019279,152622735,173979569,158002943,tonumber(our_id)},--Sudo users
     disabled_channels = {},
     moderation = {data = 'data/moderation.json'},
-    about_text = [[Teleseed v2 - Open Source
-An advance Administration bot based on yagop/telegram-bot 
-
-https://github.com/SEEDTEAM/TeleSeed
+    about_text = [[[[P O W E R  B O T  v5 By : @POWERSUDO 
 
 Admins
-@iwals [Founder]
-@imandaneshi [Developer]
-@Rondoozle [Developer]
-@seyedan25 [Manager]
+@POWERSUDO [Founder]  
+@Blackwolf_admin [Developer]  
+@Somebody_i [Developer]  
+@POWERSUDO [Manager]  
 
-Special thanks to
-awkward_potato
-Siyanew
-topkecleon
-Vamptacus
-
-Our channels
-@teleseedch [English]
-@iranseed [persian]
+Special Thx To Iman Daneshi And Randoozle
 ]],
     help_text_realm = [[
 Realm Commands:
@@ -425,6 +415,12 @@ will return group ban list
 
 *Only owner can use res,setowner,promote,demote and log commands
 
+!google : google search .
+!tex : return text into img 
+!linkpv : return gp's link in pv (bot is reported)
+!time [city] : return time of that city
+!calc : calculate + - and ...
+Help By : @POWERSUDO
 ]]
   }
   serialize_to_file(config, './data/config.lua')
